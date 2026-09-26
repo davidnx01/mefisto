@@ -219,7 +219,7 @@ h1,h2,h3,p,dl,dd,ul,table{margin:0}
       <p class="bar"><b>16:00&nbsp;–&nbsp;22:00</b><i>každý deň</i></p>
     </div>
     <div class="cover__side">
-      <p class="onair" aria-live="polite"><span id="statusDot"></span><span id="statusText">Otvorené každý deň 16:00&nbsp;–&nbsp;22:00</span></p>
+      <p class="onair" aria-live="polite"><span id="statusDot"></span><span id="statusText">Hodiny pred návštevou overte na 0907&nbsp;263&nbsp;764</span></p>
       <div class="cues"><a class="key" href="tel:+421907263764">Rezervovať stôl</a><a class="key key--ghost" href="#program">Program</a></div>
     </div>
   </div>
@@ -265,7 +265,7 @@ h1,h2,h3,p,dl,dd,ul,table{margin:0}
       <div class="cols">
         <p><i>Adresa</i>Námestie Štefana Moyzesa 15, 974 01 Banská Bystrica.</p>
         <p><i>Rezervácie</i>Stôl si rezervujete telefonicky: <a href="tel:+421907263764">0907 263 764</a></p>
-        <p><i>Otvorené</i>Každý deň v týždni od 16:00 do 22:00, pondelok aj nedeľu.</p>
+        <p><i>Otvorené</i>Každý deň v týždni od 16:00 do 22:00, pondelok aj nedeľu. Google Mapy uvádzajú cez týždeň už od 10:00 — pred návštevou overte telefonicky.</p>
         <p><i>Program</i>Koncerty a podujatia nájdete v bloku <a href="#program">Program</a>.</p>
       </div>
     </div>
@@ -302,7 +302,7 @@ h1,h2,h3,p,dl,dd,ul,table{margin:0}
 <script>
 (function(){
   "use strict";
-  var HOURS = {0:[[960,1320]],1:[[960,1320]],2:[[960,1320]],3:[[960,1320]],4:[[960,1320]],5:[[960,1320]],6:[[960,1320]]};
+  var HOURS = null; /* zdroje sa líšia (OSM vs. Google Mapy) — živý stav vypnutý, overiť s podnikom */
   var NOTES = {};
   var W = {open:"Teraz otvorené", closing:"Zatvárame o", closed:"Zatvorené", next:"otvárame"};
 
